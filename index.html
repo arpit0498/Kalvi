@@ -1,137 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="portfolio , web ">
-    <meta name="description" content="website related to portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="portfolio , web " />
+    <meta name="description" content="website related to portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="/">Home</a> |
-            <a href="/">Education</a> |
-            <a href="/">Achievements</a> |
-            <a href="/">Hobbies |<a>
-            <a href="/">Contact</a>
-            
-        </nav>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+    <header style="background-color: rgb(255, 255, 255)">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Education</a></li>
+          <li><a href="/">Achievements</a></li>
+          <li><a href="/">Hobbies</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <Main>
-        <div class="container">
-            <div class="intro">
-                <h1>Rachel Green</h1>
-                <p>Born and brought up in San Francisco, California, I am an aquarian
-                who just turned 13 years old. Just so you know, I am the crazy
-                acquarian everyone warned you about. On one side, I love exploring
-                different things. On the other side, I do have a serious goal of
-                becoming an entreprenuer.
+    <div style="background-color: rgb(255, 255, 255)">
+        <div>
+            <section class="intro"  >
+        <img class="intro-img" id="intro-img"
+          src="./assets-2022/assets/profile-pic.png"
+          alt="profile"
+        />
+
+        <div class="intro-content">
+          <h1  id="intro" style="padding: 5rem 0 0 0">Rachel Green</h1>
+          <p id="intro">
+            Born and brought up in San Francisco, California, I am an aquarian
+            who just turned 13 years old. Just so you know, I am the crazy
+            acquarian everyone warned you about. On one side, I love exploring
+            different things. On the other side, I do have a serious goal of
+            becoming an entreprenuer
+            <br />
+            <br />
+            Fun and super cool with a contagious disease called AWESOME - That’s
+            who I am.
+          </p>
+
+          <button id="button">
+            Let's Talk
+          </button>
+        </div>
+      
+    </div>
+      </section>
+      <section class="main-hustle"
+        style="
+          background-color: rgb(255, 255, 255);
+          display: grid;
+          grid-template-columns: min-content 1fr;
+        "
+      >
+        <img src="./assets-2022/assets/main-hustle.jpg" alt="main hustle" width="500vw" height="500px"  />
+
+        <div style="margin: 2em; padding-left: 10%" class="hustle">
+          <h2 >Aug 2019 - Jun 2020</h2>
+          <strong>Sunbeam Sr. Secondary School</strong>
+          <p>
+            I’ve bagged a lot of prizes both in Academics & Extracurriculars.
+            <br>
+            These are some of the achievements I’m most proud of.
+          </p>
+          <br />
+          <h2>Aug 2019 - Jun 2020</h2>
+          <strong>Sunbeam Sr. Secondary School</strong>
+          <p>
+            I’ve bagged a lot of prizes both in Academics & Extracurriculars.
+            <br>
+            These are some of the achievements I’m most proud of.
+          </p>
+        </div>
+      </section>
+      <section class="projects" style="background-color: rgb(255, 255, 255)">
+        <div id="project-quote" >
+          <p>
+            “I love coding & ever since I took up ProGrad Junior, I’ve built
+            some cool projects. I’ve also picked up HTML, CSS & JavaScript”
+          </p>
+        </div>
+        <div class="grid-container" id="projects">
+          <div class="column">
+            <img src="./assets-2022/assets/recipe.png" alt="" />
+            <h3>Recipe Web Page</h3>
+            <p>I built a Dalgona Coffee Recipe page using HTML & CSS.</p>
+            <a>See Project</a>
+          </div>
+          <div class="column">
+            <img src="./assets-2022/assets/emoji.png" alt="" />
+            <h3>My Fav Emojis</h3>
+            <p>I created my favorite emojis & cartoons using CSS only..</p>
+            <a>See Project</a>
+          </div>
+          <div class="column">
+            <img src="./assets-2022/assets/recipe.png" alt="" />
+            <h3>Recipe Web Page</h3>
+            <p>I built a Dalgona Coffee Recipempage using HTML & CSS.</p>
+            <a>See Project</a>
+          </div>
+          <div class="column">
+            <img src="./assets-2022/assets/guess-the-number.png" alt="" />
+            <h3>Guess the Number</h3>
+            <p>I built guess the number game using JavaScript.</p>
+            <a>See Project</a>
+          </div>
+          <div class="column">
+            <img src="./assets-2022/assets/rock-paper-scissors.png" alt="" />
+            <h3>Rock Paper Scissors</h3>
+            <p>
+                I made a virtual rock paper scissors game using JS.
+
+            </p>
+            
+            <a>See Project</a>
+          </div>
+
+          <div class="column">
+            <img src="./assets-2022/assets/pokemon.png" alt="" />
+            <h3>Pokemon Game</h3>
+            <p>I built the Pokemon based game using HTML, CSS & JS.</p>
+            <a>See Project</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="proud" >
+            <div id="c1">
+                <p >
+                  topped my class with cgpa of 9.2
                 </p>
-                <br>
-                <p>
-                Fun and super cool with a contagious disease called AWESOME -
-                That’s who I am.
-                </p>
-                <button>
-                    Let's Talk
-                </button>
             </div>
-
-            <section class="hustle">
-                <h2>Aug 2019 - Jun 2020</h2>
-                <strong>Sunbeam Sr. Secondary School</strong>
-                <p>I’ve bagged a lot of prizes both in Academics & Extracurriculars. These
-                   are some of the achievements I’m most proud of.</p>
-                   <br>
-                <h2>Aug 2019 - Jun 2020</h2>
-                <strong>Sunbeam Sr. Secondary School</strong>
-                <p>I’ve bagged a lot of prizes both in Academics & Extracurriculars. These
-                   are some of the achievements I’m most proud of.</p>
-            </section>
-            <Section class="work">
-                <cite>“I love coding & ever since I took up ProGrad Junior, I’ve built some cool projects. I’ve also
-
-                        picked up HTML, CSS & JavaScript”</cite>
-                <div id="projects">
-                    <h3>Recipe Web Page</h3>
-                    <p>I built a Dalgona Coffee Recipempage using HTML & CSS.</p>
-                    <button>See Project</button>
-
-                    <h3>My Fav Emojis</h3>
-                    <p>I created my favorite emojis & cartoons using CSS only..</p>
-                    <button>See Project</button>
-
-                    <h3>Recipe Web Page</h3>
-                    <p>I built a Dalgona Coffee Recipempage using HTML & CSS.</p>
-                    <button>See Project</button>
-
-                    <h3>Guess the Number</h3>
-                    <p>I built guess the number game using JavaScript.</p>
-                    <button>See Project</button>
-
-                    <h3>Rock Paper Scissors</h3>
-                    <p>I made a virtual rock paper scissors game using JS.</p>
-                    <button>See Project</button>
-
-                    <h3>Pokemon Game</h3>
-                    <p>I built the Pokemon based game using HTML, CSS & JS.</p>
-                    <button>See Project</button>
-
-                    <h3>E-birthday Card</h3>
-                    <p>I’ve built my own e-birthday card using JS.</p>
-                    <button>See Project</button>
-                </div>
-
-                          
-            </Section>
-            <section >
-                <div id="Achievements">
-                    <p>
-                        Topped my class with a CPGA of 9.2.
-
-                    </p>
-                    <p>
-                        Was awarded ‘Best Performer of the Batch 2018’ for consistent
-                        performance in academic for 3 consequetive years.
-                    </p>
-                    <p>Currently, taking up “ProGrad Junior Certification Program”. Links
-                        to some of my projects - https://github.io/rachel/game1
-                    </p>
-                    <p>Vice Captain, Sports Club of Sunbeam SSC. Bagged severalprizes in Running (100 m), Dodge
-                        ball, Archery, Regional Badminton</p>
-                    <p>Member of #include - A global
-                        coding club for passionate coders</p>
-                  
-
-
-                </div>
-
-            </section>
-            <section>
-                <div class="hustle">
-                    <p>When I’m free, you’ll find me doing one of these.Honestly, I hate to laze around!</p>
-                </div>
-            </section>
-            <section>
-                <div class="contact">
-                    <h2>Contact</h2>
-                    <p>
-                        <a href="mailto:mycontact.arpit@gmail.com">rachel.grren@gmail.com</a>
-                    </p>
-                    <div id="icons">
-                        <a href="/">youtube</a>
-                        <a href="/">insta</a>
-                        <a href="/">fb</a>
-                    </div>
-
-                </div>
-            </section>
+           <div id="c2">
+                <p >
+                  Was awarded ‘Best Performer of the Batch 2018’ for consistent performance in academic for 3 consequetive years.
+                </p>
+            </div>
+           <div id="c3">
+                <p >
+                    Currently, taking up “ProGrad Junior Certification Program”. Links to some of my projects - https://github.io/rachel/game1
+                </p>
+            </div>
+           <div id="c4">
+                <p >
+                    Vice Captain, Sports Club of Sunbeam SSC. Bagged several prizes in Running (100 m), Dodge ball, Archery, regional Badminton tornaments etc.
+                </p>
+            </div>
+           <div id="c5">
+                <p >
+                  Member of #include - A global coding club for passionate coders
+                </p>
+            </div>            
+        <div id="side">
+            <img
+            src="./assets-2022/assets/proud.jpg"
+            alt="profile"
+          />  
 
         </div>
+              
+    </section>
+
+<section class="side-hustle">
+    <div id="side-hustle" >
+    <img style=" width: 50%;" src="./assets-2022/assets/side-hustle.jpg" alt="side-hustle">
+    <p>
+        When I'm free , you will find me doing one of these .
+        <br> Honestly in hate to laze around
+    </p>
+    </div>
+    <div >
+        <img src="./assets-2022/assets/guitar.png" alt="guitar" width="55%" height="35%" style="float:inherit;"> 
+        <img src="./assets-2022/assets/friends.png" alt="friends" width="35%" height="35%" style="float: inherit;"> 
+        <img src="./assets-2022/assets/painting.png" alt="painting" width="30%" height="35%" style="float:inherit;"> 
+        <img src="./assets-2022/assets/badminton.png" alt="badminton" width="30%" height="35%" style="float:inherit;"> 
+           
+        <img src="./assets-2022/assets/reading.png" alt="reading" width="30%" height="35%" style="float: inherit;">
         
-    </Main>
-    
-</body>
+         
+        
+        
+
+    </div>
+
+</section>
+<footer class="footer">
+    <div id="footer-contact" >
+        <h1 style="color: white;">
+            Contact
+        </h1>
+        <p >
+         rachel.green@gmail.com
+        </p>
+        <div class="icons">
+            <img src="./assets-2022/assets/youtube.png" alt="youtube"><img src="./assets-2022/assets/facebook.png" alt="fb"><img src="./assets-2022/assets/instagram.png" alt="instagram">
+        </div>
+    </div>
+    <div id="footer-rights">
+        <p > All rights received</p>
+    </div>
+
+</footer>
+</div>
+  </body>
 </html>
