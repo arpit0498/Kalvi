@@ -75,13 +75,7 @@ section .intro{
   width: 25%;
     
 }
-section.intro{
-  
-}
 
-.intro-content{
-  
-}
 .intro .intro-img{
    object-fit:cover;
    float: right;
@@ -94,6 +88,11 @@ section.intro{
 .intro-content{
   width:25%;
   margin: 12vw;
+}
+#intro-para{
+  min-width: min-content;
+  width: 100%;
+  letter-spacing: .1em;
 }
 
 /* .flex-container{
@@ -139,8 +138,18 @@ div.hustle h2{
   background-color: #74d83a;
 }
 
+.hustle p,strong{
+  
+  letter-spacing: .1em;
+
+}
+
+
+
 #project-quote{
   margin: auto; width: 50%;
+  letter-spacing: .2em;
+  line-height: 2em;
 
 }
 /* .project-column {
@@ -149,6 +158,20 @@ div.hustle h2{
   padding: 10px;
   height: 300px;
 } */
+.column > h3{
+  width: 100%;
+  color: #74d83a;
+  letter-spacing: .01em;
+}
+.columns > img{
+  width:100% ;
+
+}
+
+.column > a{
+  letter-spacing: .05em;
+  font-weight:500;
+}
 .grid-container {
   display: grid;
   grid: 50% /  auto auto auto;
@@ -162,6 +185,7 @@ div.hustle h2{
   margin: auto;
 }
 
+
 .column > h3{
   font-size:x-large;
   font-weight: bolder;
@@ -169,7 +193,7 @@ div.hustle h2{
 }
 .column > p{
   text-align: center;
-  letter-spacing: vmax;
+  letter-spacing: .1em;
  
 
 }.column > a{
@@ -197,6 +221,7 @@ section.proud{
         margin-left: 4vw;
         padding: 2vw;
 }
+
 /* #side{
   grid-area: side;
   float: right;
@@ -214,33 +239,39 @@ section.proud{
   display: block;
 }
 #c1 {
+  letter-spacing: .1em;
   
   grid-area: c1;
 
 }
 #c2 {
+   letter-spacing: .1em;
   grid-area: c2;
   
 
 }
 #c3 {
   grid-area: c3;
+   letter-spacing: .1em;
 
 }
 #c4 {
   grid-area: c4;
+   letter-spacing: .1em;
 
 }
 #c5 {
+   letter-spacing: .1em;
   grid-area: c5;
-  text-align: left;
-  width: 43%;
+  width: 45%;
+  padding-top: 10%;
 
 }
 
 #side{
   grid-area: side;
   float: right;
+  min-width: 500px;
   width:100%;
 }
 
